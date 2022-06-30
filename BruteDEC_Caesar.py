@@ -1,4 +1,4 @@
-suratcinta = 'zowkxkckx_vctaez_qmek_qnuhyh' #encrypted message
+suratcinta = 'zowkxkckx_vctaez_qmek_qnuhyh' #encrypted message/pesan yang sudah dienkripsi sebelumnya
 hurup = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 for key in range(len(hurup)):
     translated = ''
