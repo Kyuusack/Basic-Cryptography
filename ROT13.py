@@ -1,10 +1,10 @@
-print("ALGHORITMA ROTTELULAS")
-rottelulas = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
+print("ALGHORITMA ROT13")
+rotthirteen = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
                         'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdevghijklm')
 
 #function to translate plain text
 def rot13(text):
-    return text.translate(rottelulas)
+    return text.translate(rotthirteen)
 
 def main():
     layang = input("Pesan       : ")
