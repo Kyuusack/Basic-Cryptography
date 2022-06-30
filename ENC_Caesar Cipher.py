@@ -22,7 +22,7 @@ def encrypt(text,s):
     return result
 
 # Check the above function 
-text = "Akusuka kamu2000"
+text = "TEKS YANG AKAN DIENCRYPT"
 s = 13
 print ('Plain text : ' + text)
 print ('Shift pattern : ' + str(s))
