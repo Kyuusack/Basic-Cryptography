@@ -7,8 +7,8 @@ def rot13(text):
     return text.translate(rotthirteen)
 
 def main():
-    layang = input("Pesan       : ")
-    Decrypt = (rot13(layang))
+    message = input("Pesan       : ")
+    Decrypt = (rot13(message))
     print("Hasil       : " + Decrypt)
     
 if __name__ == "__main__":
